@@ -1,5 +1,10 @@
 //head ans tail recursion in c++ program
 
+/*
+recursion can be of two type base on the positioning of recursive relation 
+1-> tail recursion
+2-> head recursion*/
+
 #include<iostream>
 using namespace std;
 
