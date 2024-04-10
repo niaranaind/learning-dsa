@@ -1,3 +1,4 @@
+/*checking wether an array is sorted or Not using recursion */
 #include<iostream>
 using namespace std;
 
