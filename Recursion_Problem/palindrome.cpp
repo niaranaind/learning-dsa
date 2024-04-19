@@ -18,7 +18,7 @@ class solution{
             start++;
             end--;
         }
-        return true;
+        return true;  
     }
 
     bool ispalindrome(string str,int s,int e){   //using two pointer approach and recursion 
@@ -50,7 +50,7 @@ int main(){
     //using two pointer approach
     if(sr.checkPalindrome(str)){
 
-        cout<<"string is a palindrome "<<endl;
+        cout<<"string is a palindrome "<<endl; 
     }
     else{
 
