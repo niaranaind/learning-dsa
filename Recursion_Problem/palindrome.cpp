@@ -44,7 +44,7 @@ class solution{
 
 int main(){
 
-    string str="abbccbba";
+    string str="3553";
     solution sr;
 
     //using two pointer approach
