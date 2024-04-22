@@ -1,4 +1,20 @@
+#include<iostream>
+using namespace std;
 
+class sorting{
+
+    public:
+
+    void merge(int *arr,int s,int e){
+
+        int mid=s+(e-s)/2;
+
+        //creating new arrays
+        int len1=mid-s+1;
+        int len2=e-mid;
+
+        int *first=new int[len1];
+        int *second=new int[len2];
 
         //copying the element
         int mainArrayindex=s;
@@ -90,3 +106,5 @@ int main(){
 
         cout<<arr[i]<<" ";
     }cout<<endl;
+    return 0;
+}
