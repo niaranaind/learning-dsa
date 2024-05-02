@@ -64,7 +64,7 @@ int main(){
 
     Hero *h3= new Hero;  //this dynamically allocation
 
-    cout<<"health is: "<<(*h3).gethealth()<<endl;
+    cout<<"health is: "<<(*h3).gethealth()<<endl; // here we use dereference operator or -> operator
     cout<<"level is: "<<(*h3).getlevel()<<endl;
 
     cout<<"health is: "<<h3->gethealth()<<endl;
