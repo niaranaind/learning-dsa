@@ -1,0 +1,15 @@
+
+ABSTRACTION  -> means Information Hidding
+it means displaying only essential information and hidding the details. Data abstraction refer to 
+providing only necessary information to outside world and hiding the background details or implementation
+
+Advantages of Abstraction 
+1-> only you can make change to your data or function and no one else can
+2-> it make the application secure by not allowing anyone else to see the background details.
+3-> Increase the resusability of the code
+4-> Avoid duplication of your code
+
+Abstraction can be achieved by 
+1-> using class
+2-> using access modifier/specifier
+3-> Abstraction in Header file
