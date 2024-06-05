@@ -22,7 +22,7 @@ class solution{
 
         //creating new node
         Node* newNode = new Node(data);
-        if(head == NULL){
+        if(head == NULL){// when List is Empty
             head = newNode;
             tail = newNode;
             return;
